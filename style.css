@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#topContainer{
+    height: 675px;
+    width: 1200px;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+}
+
+#gameScreen{
+    display:flex;
+    flex-basis:100%;
+    justify-content: space-between;
+    margin:20px;
+}
+
+#leftContainer{
+    background-color: green;
+    height: auto;
+    flex-basis: 74%;  
+    max-width: 74%; 
+}
+
+#rightContainer{
+    background-color: blue;
+    height: auto;
+    flex-basis: 25%;
+}
+
+#bottomBar{
+    background-color: black;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: baseline;
+}
+
+
+#dealerHand{
+    display: flex;
+    justify-content: flex-end;
+    height:50%;
+}
+
+#playerHand{
+    display: flex;
+    justify-content: flex-start;
+    height:50%;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+#betInput{
+    width: 100%;
+}
+
+.card{
+    height: 230px;
+    width: 165px;
+    margin: 5px;
+    color: white;
+    background-color: white;
+    border: 1px black solid;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color:white;
+}
+
+.card > p{
+    color:black;
+    font-size: 5em;
+}
+
+#bottomBar > h1 {
+    margin-left: 20px;
+}
+
+#betForm{
+    display:flex;
+    flex-direction: row;
+}

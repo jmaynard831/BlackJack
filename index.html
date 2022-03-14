@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="topContainer">
+        <div id="gameScreen">
+            <div id="leftContainer">
+                <div id="dealerHand">
+                   <!--cards go here-->
+                </div>
+                <div id="playerHand">
+                    <!--cards go here-->
+                </div>
+            </div>
+            <div id="rightContainer">
+                <h1>Blackjack</h1>
+
+                <div id="odds">
+                    <p></p>
+                </div>
+
+                <div id="buttons">
+                    <div id="hitHold">                    
+                        <button id="hit">hit</button>
+                        <button id="hold">hold</button>
+                    </div>
+                    <br>
+                    <div id="betBar">
+                        <form id="betForm"><input type="text" value="50" id="betInput">
+                        <input type="submit" value="BET"></form>
+                    </div>
+                    <br>
+                    <p id="dealerHandScore"></p>
+                    <p id="playerHandScore"></p>
+                    <br>
+                    <button id="resetBTN">Reset Deck</button>
+                    <p id="deckSize"></p>
+                </div>
+
+
+            </div>
+        </div>
+        
+        <div id="bottomBar">
+            <h1 id="moneyDisplay">Money: 500</h1>
+            <h1 id="betField"></h1>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
